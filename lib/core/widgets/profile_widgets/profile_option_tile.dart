@@ -23,7 +23,10 @@ class ProfileOptionTile extends StatelessWidget {
         behavior: HitTestBehavior.opaque,
         onTap: onTap, // ✅ use passed callback
         child: Padding(
-          padding: EdgeInsets.symmetric(vertical: 16, horizontal: 16),
+          padding: EdgeInsets.symmetric(
+            vertical: trailing != null ? 13 : 16,
+            horizontal: 16,
+          ),
           child: Row(
             children: [
               Icon(icon),
