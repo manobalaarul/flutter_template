@@ -13,15 +13,16 @@ class ProfileView extends StatelessWidget {
     final ThemeController themeController = Get.find<ThemeController>();
 
     return Scaffold(
+      backgroundColor: Colors.transparent,
       appBar: const CommonAppBar(title: 'Profile'),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            const CircleAvatar(
-              radius: 50,
-              backgroundImage: NetworkImage('https://i.pravatar.cc/150?img=4'),
-            ),
+            // const CircleAvatar(
+            //   radius: 50,
+            //   backgroundImage: NetworkImage('https://i.pravatar.cc/150?img=4'),
+            // ),
             const SizedBox(height: 12),
             const Text(
               'Mano Developer',

@@ -21,7 +21,7 @@ class ProfileOptionTile extends StatelessWidget {
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       child: GestureDetector(
         behavior: HitTestBehavior.opaque,
-        onTap: onTap, // ✅ use passed callback
+        onTap: onTap,
         child: Padding(
           padding: EdgeInsets.symmetric(
             vertical: trailing != null ? 13 : 16,

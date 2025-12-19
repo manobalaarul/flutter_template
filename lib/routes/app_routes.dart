@@ -1,6 +1,6 @@
 abstract class AppRoutes {
   static const SPLASH = '/';
-  static const HOME = '/home';
+  static const MAIN = '/main';
 
   // add future routes here
   // static const LOGIN = '/login';

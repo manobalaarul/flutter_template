@@ -15,6 +15,7 @@ class CommonAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      backgroundColor: Colors.transparent,
       automaticallyImplyLeading: showBackButton,
       title: Text(title, style: const TextStyle(fontWeight: FontWeight.w600)),
       actions: actions,

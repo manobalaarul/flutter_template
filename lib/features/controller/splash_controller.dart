@@ -14,7 +14,7 @@ class SplashController extends GetxController {
     print('Starting splash timer...');
     await Future.delayed(const Duration(seconds: 2));
     print('Navigating to home...');
-    Get.offAllNamed(AppRoutes.HOME);
+    Get.offAllNamed(AppRoutes.MAIN);
     print('Navigation called');
   }
 }
