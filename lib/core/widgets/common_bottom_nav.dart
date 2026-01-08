@@ -20,7 +20,7 @@ class CommonBottomNav extends StatelessWidget {
     ];
 
     return Padding(
-      padding: const EdgeInsets.all(10.0),
+      padding: const EdgeInsets.only(bottom: 20, left: 10, right: 10),
       child: Container(
         height: 70,
         decoration: BoxDecoration(
